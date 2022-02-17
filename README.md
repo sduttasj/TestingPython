@@ -20,7 +20,32 @@ pip install flake8 pytest pytest-cov
 6. Store the dependencies in requirements.txt:
 pip freeze > requirements.txt
 
-7
+7.Next we add a test file under the same directory (main directory)
+
+8. We run the test coverage. pytest -v --cov
+
+(venv) C:\DEV\LeetCode-Problems\TestingPython>pytest -v --cov
+================================================= test session starts =================================================
+platform win32 -- Python 3.10.1, pytest-7.0.1, pluggy-1.0.0 -- C:\DEV\LeetCode-Problems\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\DEV\LeetCode-Problems\TestingPython
+plugins: cov-3.0.0
+collected 1 item
+
+test_LetterCasePermution.py::Test::test_letterCasePermutation PASSED                                             [100%]
+
+---------- coverage: platform win32, python 3.10.1-final-0 -----------
+Name                          Stmts   Miss  Cover
+-------------------------------------------------
+LetterCasePermutation.py         18      1    94%
+test_LetterCasePermution.py       6      0   100%
+-------------------------------------------------
+TOTAL                            24      1    96%
+
+
+================================================== 1 passed in 0.47s ==================================================
+
+
 
 
 
