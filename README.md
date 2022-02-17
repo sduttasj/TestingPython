@@ -35,15 +35,6 @@ collected 1 item
 test_LetterCasePermution.py::Test::test_letterCasePermutation PASSED                                             [100%]
 
 ---------- coverage: platform win32, python 3.10.1-final-0 -----------
-Name                          Stmts   Miss  Cover
--------------------------------------------------
-LetterCasePermutation.py         18      1    94%
-test_LetterCasePermution.py       6      0   100%
--------------------------------------------------
-TOTAL                            24      1    96%
-
-
-================================================== 1 passed in 0.47s ==================================================
 
 
 
