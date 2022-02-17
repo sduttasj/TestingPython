@@ -20,7 +20,7 @@ pip install flake8 pytest pytest-cov
 6. Store the dependencies in requirements.txt:
 pip freeze > requirements.txt
 
-7.Next we add a test file under the same directory (main directory)
+7. Next we add a test file under the same directory (main directory)
 
 8. We run the test coverage. pytest -v --cov
 
